@@ -1,0 +1,12 @@
+.body {
+  color: #fff;
+}
+.header {
+  background-image: url(/assets/image/headimage.png);
+  width: 1920px;
+  height: 1045px;
+}
+.container {
+ padding-top: 50px;
+ text-align: center;
+}
