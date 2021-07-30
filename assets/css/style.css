@@ -1,12 +1,32 @@
 .body {
   color: #fff;
 }
+
 .header {
   background-image: url(/assets/image/headimage.png);
   width: 1920px;
   height: 1045px;
+  padding-top: 50px;
 }
+
 .container {
- padding-top: 50px;
- text-align: center;
+ 
 }
+
+ul {
+  display: flex;
+}
+
+
+li {
+  list-style: none;
+  color: #fff;
+  margin-right: 63px;
+  font-size: 18px;
+}
+
+.telephone {
+  margin-left: 167px;
+  border-bottom: 5px solid #D1A954;
+}
+
