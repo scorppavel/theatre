@@ -1,4 +1,4 @@
-.body {
+body {
   color: #fff;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .container {
- 
+ margin: 0 200px 0 200px;
 }
 
 ul {
@@ -20,13 +20,24 @@ ul {
 
 li {
   list-style: none;
-  color: #fff;
-  margin-right: 63px;
+  margin-right: 60px;
   font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .telephone {
-  margin-left: 167px;
+  margin-left: 160px;
   border-bottom: 5px solid #D1A954;
 }
 
+.maintext {
+  height: 296px;
+  width: 540px;
+}
+.headintext {
+  padding-top: 307px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 64px;
+}
