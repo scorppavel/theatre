@@ -4,8 +4,6 @@ body {
 
 .header {
   background-image: url(/assets/image/headimage.png);
-  width: 1920px;
-  height: 1045px;
   padding-top: 50px;
 }
 
@@ -32,12 +30,41 @@ li {
 }
 
 .maintext {
-  height: 296px;
-  width: 540px;
+  display: flex;
+  padding-top: 190px;
 }
-.headintext {
-  padding-top: 307px;
-  margin-bottom: 50px;
+
+.firsttext {
   text-transform: uppercase;
-  font-size: 64px;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 110px;
+  margin-bottom: 50px;
+}
+
+.textandbtn {
+  width: 550px;
+  height: 296px;
+  margin-right: 380px;
+}
+
+.secondtext {
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color:  #D1A954;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.firstimage {
+  padding-bottom: 170px;
 }
